@@ -1,0 +1,34 @@
+{
+  "campeones": [
+    {
+      "nombre": "Ornn",
+      "region": "Freljord",
+      "rol": "Tanque",
+      "id": 1
+    },
+    {
+      "nombre": "Viego",
+      "region": "Las islas de las Sombras",
+      "rol": "Asesino",
+      "id": 2
+    },
+    {
+      "nombre": "Quinn",
+      "region": "Demacia",
+      "rol": "Tirador",
+      "id": 3
+    },
+    {
+      "nombre": "Aatrox",
+      "region": "Runaterra",
+      "rol": "Peleador",
+      "id": 4
+    },
+    {
+      "nombre": "Blitzcrank",
+      "region": "Zaun",
+      "rol": "Tanque",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@500&display=swap');
+
+body{
+font-family: 'Georama', sans-serif;
+/* background-color: aliceblue; */
+background-image: url("lol.jpg");
+background-position: top;
+
+}
+
+
+.edit {
+    background-color: #d47197;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Georama', sans-serif;
+}
+
+.edit:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.delete {
+    background-color: #d81919;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Georama', sans-serif;
+}
+
+.delete:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.submit {
+    background-color: #2c3da0;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Georama', sans-serif;
+}
+
+.submit:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px 10px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+    border: 3px solid rgb(176, 217, 233);
+    transition: 0.5s;
+    outline: none;
+    font-family: 'Georama', sans-serif;
+    font-size: 20px;
+  }
+  .center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  input[type=text]:focus {
+    border: 3px solid rgb(19, 80, 131);
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    padding-right: 70px;
+    color: white;
+
+  }
+  th {
+    padding-left: 100px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #55418b;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  td {
+    padding-left: 100px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  tr:hover {background-color: rgba(173, 129, 202, 0.322);}
